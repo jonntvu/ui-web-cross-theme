@@ -11,7 +11,7 @@ const Header =
                     <div class="top-header-content d-flex flex-wrap align-items-center justify-content-between">
                         <!-- Top Header Meta -->
                         <div class="top-header-meta d-flex flex-wrap">
-                            <p><a href="#" class="open" data-toggle="tooltip" data-placement="bottom" title="10 Am to 11:00 PM"><i class="fa fa-clock-o" aria-hidden="true"></i> <span>Time: 6:19 am     </span></a>Temperature: 65F<!-- Social Info -->                                </p>
+                            <p><a href="#" class="open" data-toggle="tooltip" data-placement="bottom" title="10 Am to 11:00 PM"><i class="fa fa-clock-o" aria-hidden="true"></i> <span>Time: 6:00 am     </span></a>Temperature: 65F<!-- Social Info -->                                </p>
                             <div class="top-social-info">
                                 <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                                 <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>

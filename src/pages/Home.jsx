@@ -8,10 +8,13 @@ import CallToAction from '../components/CallToAction.jsx'
 import Sermon from '../components/Sermon.jsx'
 import Gallery from '../components/Gallery.jsx'
 import Footer from '../components/Footer.jsx'
+import Breadcrumb from '../components/Breadcrumb.jsx'
+
 
 function Home() {
   return (
     <div>
+      <Breadcrumb/>
       <Preloader/>
       <Header/>
       <Slider/>
