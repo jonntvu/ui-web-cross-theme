@@ -44,7 +44,6 @@ const Slider =
     </div>
 </section>
 <!-- ##### Hero Area End ##### -->
+`
 
-`;
-
-export default Slider;
+export default Slider

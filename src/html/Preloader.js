@@ -5,7 +5,6 @@ const Preloader =
     <!-- Line -->
     <div class="line-preloader"></div>
 </div>
+`
 
-`;
-
-export default Preloader;
+export default Preloader

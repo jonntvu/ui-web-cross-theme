@@ -1,6 +1,5 @@
 const Sermon =
 `
-
   <!-- ##### Latest Sermons Area Start ##### -->
   <section class="latest-sermons-area section-padding-100-0">
       <div class="container">
@@ -99,7 +98,6 @@ const Sermon =
       </div>
   </section>
   <!-- ##### Latest Sermons Area End ##### -->
+`
 
-`;
-
-export default Sermon;
+export default Sermon

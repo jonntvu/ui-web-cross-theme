@@ -1,7 +1,5 @@
 const UpcomingEvent =
 `
-
-
   <!-- ##### Upcoming Events Area Start ##### -->
    <section class="upcoming-events-area section-padding-0-100">
       <!-- Upcoming Events Heading Area -->
@@ -190,7 +188,6 @@ const UpcomingEvent =
       </div>
   </section>
   <!-- ##### Upcoming Events Area End ##### -->
+`
 
-`;
-
-export default UpcomingEvent;
+export default UpcomingEvent

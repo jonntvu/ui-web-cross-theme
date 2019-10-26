@@ -1,7 +1,5 @@
 const Gallery =
 `
-
-
   <!-- ##### Gallery Area Start ##### -->
   <div class="gallery-area d-flex flex-wrap">
       <!-- Single Gallery Area -->
@@ -79,7 +77,6 @@ const Gallery =
       </div>
   </div>
   <!-- ##### Gallery Area End ##### -->
+`
 
-`;
-
-export default Gallery;
+export default Gallery

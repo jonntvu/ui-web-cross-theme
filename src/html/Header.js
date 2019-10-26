@@ -1,6 +1,5 @@
 const Header =
 `
-
 <!-- ##### Header Area Start ##### -->
 <header class="header-area">
 
@@ -153,8 +152,6 @@ const Header =
     <!-- ***** Navbar Area ***** -->
 </header>
 <!-- ##### Header Area End ##### -->
+`
 
-
-`;
-
-export default Header;
+export default Header
