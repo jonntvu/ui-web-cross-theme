@@ -76,7 +76,7 @@ const Header =
                                             <li><a href="TNTT.html">TNTT Tôma Thiện</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">BAN NGÀNH</a>
+                                    <li><a href="BanNganh">BAN NGÀNH</a>
                                         <ul class="dropdown">
                                             <li><a href="SoDoToChu.html">Sơ Đồ Tổ Chức</a></li>
                                             <li><a href="KCS.html">Khối Cơ Sở</a></li>
@@ -87,7 +87,7 @@ const Header =
                                             <li><a href="KTG.html">Khối Truyền Giáo</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Thư Viện</a>
+                                    <li><a href="ThuVien">Thư Viện</a>
                                         <ul class="dropdown">
                                             <li><a href="ThongTinMV.html">Thông Tin Mục Vụ</a></li>
                                             <li><a href="CacBaiViet.html">Các Bài Viết</a></li>
@@ -97,7 +97,7 @@ const Header =
                                             <li><a href="PrayerRequest.html">Prayer Request</a></li>
                                         </ul>
                                     </li>                                                                     
-                                    <li><a href="LienHe.html">LIÊN HỆ</a></li>
+                                    <li><a href="Contact">Contact</a></li>
                                 </ul>
 
                             <!-- Search Button -->
