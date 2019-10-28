@@ -8,7 +8,7 @@ const About =
               <!-- Section Heading -->
               <div class="col-12">
                   <div class="section-heading">
-                      <h2>GIÁO XỨ CÁC THÁNH TỬ ĐẠO VIỆT NAM - ATLANTA</h2>
+                      <h2>Holy Martyrs</h2>
                       <p>A church isn't a building—it's the people. We meet in locations around the United States and globally at Life.Church Online. No matter where you join us.</p>
                   </div>
               </div>
