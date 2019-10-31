@@ -7,7 +7,7 @@ import './App.css';
 import HomePage from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
-import ThuVien from './pages/ThuVien.jsx';
+import Libraries from './pages/Libraries.jsx';
 import BanNganhPages from './pages/BanNganhPages.jsx';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx'
@@ -20,7 +20,7 @@ function App() {
         <Route path="/" component={HomePage} exact />
         <Route path="/about" component={About} />
         <Route path="/Contact" component={Contact} />
-        <Route path="/ThuVien" component={ThuVien} />
+        <Route path="/Libraries" component={Libraries} />
         <Route path="/BanNganhs/:name" component={BanNganhPages} /> 
         <Footer/>    
       </div>
