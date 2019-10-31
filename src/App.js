@@ -8,19 +8,23 @@ import HomePage from './pages/Home.jsx';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
 import ThuVien from './pages/ThuVien.jsx';
-import BanNganh from './pages/BanNganh.jsx';
+import BanNganhPages from './pages/BanNganhPages.jsx';
 import Event from './pages/Event.jsx';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx'
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <Header/>
         <Route path="/" component={HomePage} exact />
         <Route path="/about" component={About} />
         <Route path="/Contact" component={Contact} />
         <Route path="/ThuVien" component={ThuVien} />
-        <Route path="/BanNganh" component={BanNganh} />
+        <Route path="/BanNganhs/:name" component={BanNganhPages} />
         <Route path="/Event" component={Event} />
+        <Footer/>    
       </div>
     </Router>
   );
