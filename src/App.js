@@ -9,6 +9,7 @@ import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
 import ThuVien from './pages/ThuVien.jsx';
 import BanNganh from './pages/BanNganh.jsx';
+import Event from './pages/Event.jsx';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/Contact" component={Contact} />
         <Route path="/ThuVien" component={ThuVien} />
         <Route path="/BanNganh" component={BanNganh} />
+        <Route path="/Event" component={Event} />
       </div>
     </Router>
   );
