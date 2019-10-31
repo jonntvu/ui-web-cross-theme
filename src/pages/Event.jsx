@@ -2,17 +2,18 @@ import React from 'react'
 import Preloader from '../components/Preloader.jsx'
 import Header from '../components/Header.jsx'
 import Footer from '../components/Footer.jsx'
-import AboutUs from '../components/AboutUs.jsx'
+import Events from '../components/Events.jsx'
 
-function About() {
+
+function Event() {
   return (
     <div>
       <Preloader/>
       <Header/>
-      <AboutUs/>
+      <Events/>
       <Footer/>
     </div>
   );
 }
 
-export default About
+export default Event

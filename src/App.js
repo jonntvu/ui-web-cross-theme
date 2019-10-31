@@ -9,6 +9,7 @@ import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
 import Libraries from './pages/Libraries.jsx';
 import BanNganhPages from './pages/BanNganhPages.jsx';
+import Event from './pages/Event.jsx';
 import Header from './components/Header.jsx';
 import Footer from './components/Footer.jsx'
 
@@ -20,8 +21,9 @@ function App() {
         <Route path="/" component={HomePage} exact />
         <Route path="/about" component={About} />
         <Route path="/Contact" component={Contact} />
-        <Route path="/Libraries" component={Libraries} />
-        <Route path="/BanNganhs/:name" component={BanNganhPages} /> 
+        <Route path="/ThuVien" component={ThuVien} />
+        <Route path="/BanNganhs/:name" component={BanNganhPages} />
+        <Route path="/Event" component={Event} />
         <Footer/>    
       </div>
     </Router>
