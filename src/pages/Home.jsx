@@ -16,14 +16,12 @@ function Home() {
     <div>
       <Breadcrumb/>
       <Preloader/>
-      <Header/>
       <Slider/>
       <About/>
       <UpcomingEvent/>
       <CallToAction/>
       <Sermon/>
       <Gallery/>
-      <Footer/>
     </div>
   );
 }
