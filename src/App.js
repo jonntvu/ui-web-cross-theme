@@ -4,22 +4,27 @@ import {
   Route,
 } from 'react-router-dom';
 import './App.css';
-import HomePage from './pages/Home.jsx';
-import About from './pages/About.jsx';
+import HomePage from 'pages/HomePage/HomePage';
+import About from './pages/About/About';
 import Contact from './pages/Contact.jsx';
-import ThuVien from './pages/ThuVien.jsx';
-import BanNganh from './pages/BanNganh.jsx';
-
+import ThuVien from './pages/ThuVien/ThuVien';
+import BanNganh from './pages/BanNganh/BanNganh';
+import Header from 'components/Header/Header';
+import Footer from 'components/Footer/Footer';
+import Data from 'database/data.json';
 function App() {
   return (
     <Router>
-      <div className="App">
-        <Route path="/" component={HomePage} exact />
-        <Route path="/about" component={About} />
-        <Route path="/Contact" component={Contact} />
-        <Route path="/ThuVien" component={ThuVien} />
-        <Route path="/BanNganh" component={BanNganh} />
-      </div>
+		<Header
+			time = {new Date().toLocaleTimeString('en-US', {hour12: true, hour: 'numeric', minute: 'numeric'})} />
+    	<div className="App">
+        	<Route path="/" render={(props) => <HomePage {...props} data = {Data}/>} exact />
+        	<Route path="/about" render={(props) => <About {...props} data = {Data.about}/>} />
+        	<Route path="/Contact" component={Contact} />
+        	<Route path="/ThuVien" component={ThuVien} />
+        	<Route path="/BanNganh" render={(props) => <BanNganh {...props} data = {Data.banNganh}/>} />
+      	</div>
+	  	<Footer/>
     </Router>
   );
 
