@@ -21,10 +21,13 @@ function App() {
         <Route path="/" component={HomePage} exact />
         <Route path="/about" component={About} />
         <Route path="/Contact" component={Contact} />
+<<<<<<< HEAD
         <Route path="/Libraries" component={Libraries} />
+=======
+>>>>>>> origin/develop
         <Route path="/BanNganhs/:name" component={BanNganhPages} />
         <Route path="/Event" component={Event} />
-        <Footer/>    
+        <Footer/>
       </div>
     </Router>
   );
