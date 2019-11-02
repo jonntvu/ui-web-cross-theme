@@ -21,7 +21,7 @@ function App() {
         <Route path="/" component={HomePage} exact />
         <Route path="/about" component={About} />
         <Route path="/Contact" component={Contact} />
-        <Route path="/ThuVien" component={ThuVien} />
+        <Route path="/Libraries" component={Libraries} />
         <Route path="/BanNganhs/:name" component={BanNganhPages} />
         <Route path="/Event" component={Event} />
         <Footer/>    
